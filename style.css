@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.logo{
+  margin-left: 3px;
+}
+
+.start-point{
+  display: flex;
+  
+}
+.game-container{
+  width: 50%;
+  height: 100vh;
+  background-color: #9EC91E;
+  margin: auto;
+}
+
+h3{
+  font-family: "Silkscreen", sans-serif;
+}
+
+.computer-display-title{
+  margin-bottom: 2px;
+ 
+}
+
+.computer-display{
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.computer-choice{
+  border: 1px dashed;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.player-display{
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.player-title{
+  margin-bottom: 2px;
+  
+}
+
+.player-choice-display{
+  border: 1px dashed;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.winners-display{
+  background-color: #F2C244;
+  width: 100%;
+  padding: 1px;
+
+}
+.who-wins{
+  text-align: center;
+  align-items: center;
+}
+
+.display-choice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.choice-card-rock{
+  background-color: white;
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice-card-paper{
+  background-color: white;
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice-card-scissor{
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+
+}
+
+.choice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 40px; */
+
+}
+.choice-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
